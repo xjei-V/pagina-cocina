@@ -10,7 +10,6 @@ body {
 }
 
 nav {
-    height: 150px;
     background: linear-gradient(to right, #FF5733, #FFC300);
     max-width: 900px;
     width: 80%;
@@ -34,7 +33,6 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
-    justify-content: end;
     transition: 0.8s all;
     padding: 10px;
     
@@ -43,9 +41,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #000000;  
-    
     padding: 7px;
-    justify-content: flex-end;
     border-radius: 5px;
     font-weight: bold; 
     font-size: 1.1em;
@@ -101,14 +97,11 @@ nav ul li a:hover {
 .menu-content a {
     text-decoration: none;
     padding: 10px 20px;
-    color: #333;
     border-bottom: 1px solid #ddd;
     transition: background-color 0.3s;
 }
 
-.menu-content a:last-child {
-    border-bottom: none;
-}
+
 
 .menu-content a:hover {
     background-color: #f0f0f0;
